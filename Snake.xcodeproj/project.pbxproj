@@ -16,6 +16,7 @@
 		D713E641244991A400452DAC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D713E640244991A400452DAC /* GameViewController.swift */; };
 		D713E6442449AC9B00452DAC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D713E6432449AC9B00452DAC /* GameView.swift */; };
 		D713E649244B4D9A00452DAC /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D713E648244B4D9A00452DAC /* Food.swift */; };
+		D7A272E2244D6F8200C6E68D /* GameViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A272E1244D6F8200C6E68D /* GameViewControllerTest.swift */; };
 		D7EF9129244973EA00D26CFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EF9128244973EA00D26CFE /* AppDelegate.swift */; };
 		D7EF9130244973EA00D26CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7EF912E244973EA00D26CFE /* Main.storyboard */; };
 		D7EF9132244973EC00D26CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EF9131244973EC00D26CFE /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		D713E640244991A400452DAC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D713E6432449AC9B00452DAC /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		D713E648244B4D9A00452DAC /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		D7A272E1244D6F8200C6E68D /* GameViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerTest.swift; sourceTree = "<group>"; };
 		D7EF9125244973EA00D26CFE /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EF9128244973EA00D26CFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7EF912F244973EA00D26CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 				D713E632244978AB00452DAC /* SnakeTest.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D7A272E0244D6F7100C6E68D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D7A272E1244D6F8200C6E68D /* GameViewControllerTest.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		D7EF911C244973EA00D26CFE = {
@@ -119,6 +129,7 @@
 		D7EF913E244973EC00D26CFE /* SnakeTests */ = {
 			isa = PBXGroup;
 			children = (
+				D7A272E0244D6F7100C6E68D /* ViewController */,
 				D713E6312449789B00452DAC /* Model */,
 				D7EF913F244973EC00D26CFE /* SnakeTests.swift */,
 				D7EF9141244973EC00D26CFE /* Info.plist */,
@@ -282,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D713E633244978AB00452DAC /* SnakeTest.swift in Sources */,
+				D7A272E2244D6F8200C6E68D /* GameViewControllerTest.swift in Sources */,
 				D7EF9140244973EC00D26CFE /* SnakeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
