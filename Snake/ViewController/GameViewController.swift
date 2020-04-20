@@ -37,13 +37,15 @@ class GameViewController: UIViewController {
     
     private(set) var snake: SnakeCandidate!
 
-    private(set) var food: Food? = nil
+    var food: Food? {
+        return gameView.food
+    }
 
     private var forwardDirection: Direction = .right
 
     private var timer: Timer? = nil
     
-    private var totalTime: TimeInterval = 0.0
+    var totalTime: TimeInterval = 0.0
 
     
     override func viewDidLoad() {

@@ -36,5 +36,17 @@ class GameViewControllerTest: XCTestCase {
         
         XCTAssert(testViewController?.state == .ready)
     }
+    
+    func testGeneratedFood() {
+        testViewController!.viewDidAppear(true)
+        
+        let exp = expectation(description: "Test after 1 seconds")
+        let result = XCTWaiter.wait(for: [exp], timeout: 1)
+        if result == XCTWaiter.Result.timedOut {
+            XCTAssertNotNil(testViewController?.food)
+        } else {
+            XCTFail("Delay interrupted")
+        }
+    }
 
 }
