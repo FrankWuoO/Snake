@@ -1,3 +1,9 @@
+---
+name: Feature request
+about: Share your new plan/idea for this project.
+
+---
+
 ### 目標敘述 ⚽
 
 
