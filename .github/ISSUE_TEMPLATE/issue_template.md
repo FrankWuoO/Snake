@@ -1,7 +1,7 @@
 ---
-name: Feature request
-about: Share your new plan/idea for this project.
-
+name: Feature Request
+about: Share implementation plan 
+labels: feature
 ---
 
 ### 目標敘述 ⚽
